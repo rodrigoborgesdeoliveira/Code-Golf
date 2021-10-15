@@ -1,0 +1,18 @@
+name: Character Cross
+on: 
+  pull_request:
+    branches:
+      - main
+jobs:
+  Test-JS:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install dependencies and run tests
+        working-directory: ./Character\ Cross/js
+        run: |
+          npm install
+          npm test
