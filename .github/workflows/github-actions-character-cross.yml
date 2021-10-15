@@ -9,7 +9,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: Character\ Cross/js
+        working-directory: character-cross/js
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
-          cache-dependency-path: Character\ Cross/js
+          cache-dependency-path: character-cross/js
       - name: Debug (list files)
         run: |
           ls
