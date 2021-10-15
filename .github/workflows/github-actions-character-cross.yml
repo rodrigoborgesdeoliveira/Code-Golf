@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
+          cache-dependency-path: Character\ Cross/js
       - name: Debug (list files)
         run: "ls"
       - name: Install dependencies
