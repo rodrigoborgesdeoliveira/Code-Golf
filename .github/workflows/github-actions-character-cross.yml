@@ -19,7 +19,8 @@ jobs:
           cache: 'npm'
           cache-dependency-path: Character\ Cross/js
       - name: Debug (list files)
-        run: "ls"
+        run: |
+          ls -la
       - name: Install dependencies
         run: 'npm install'
       - name: Run tests
