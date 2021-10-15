@@ -1,2 +1,1 @@
-# Code-Golf
-Solutions for the problems in https://codegolf.stackexchange.com/
+Solutions for the problems in [Code Golf](https://codegolf.stackexchange.com/).

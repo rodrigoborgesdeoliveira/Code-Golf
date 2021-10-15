@@ -1,0 +1,12 @@
+{
+  "name": "character-cross",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Rodrigo Borges",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
