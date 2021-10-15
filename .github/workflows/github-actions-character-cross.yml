@@ -1,6 +1,6 @@
 name: Character Cross
 on: 
-  push:
+  pull_request:
     branches:
       - main
 jobs:
