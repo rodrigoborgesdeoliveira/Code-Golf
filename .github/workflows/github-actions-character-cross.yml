@@ -6,9 +6,9 @@ on:
 jobs:
   Test-JS:
     runs-on: ubuntu-latest
-    # defaults:
-    #   run:
-    #     working-directory: ./Character\ Cross/js
+    defaults:
+      run:
+        working-directory: ./Character\ Cross/js
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
