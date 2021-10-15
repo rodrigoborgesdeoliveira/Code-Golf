@@ -12,16 +12,16 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: Set up node 14
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-          cache: 'npm'
-          cache-dependency-path: Character\ Cross/js
+      # - name: Set up node 14
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: '14'
+      #     cache: 'npm'
+      #     cache-dependency-path: Character\ Cross/js
       - name: Debug (list files)
         run: |
           ls -la
-      - name: Install dependencies
-        run: 'npm install'
-      - name: Run tests
-        run: 'npm test'
+      # - name: Install dependencies
+      #   run: 'npm install'
+      # - name: Run tests
+      #   run: 'npm test'
