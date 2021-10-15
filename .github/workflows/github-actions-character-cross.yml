@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./Character\ Cross/js
+        working-directory: ${{ github.workspace }}/Character\ Cross/js
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
@@ -20,7 +20,7 @@ jobs:
           cache-dependency-path: Character\ Cross/js
       - name: Debug (list files)
         run: |
-          ls ${{ github.workspace }}
+          ls
       - name: Install dependencies
         run: 'npm install'
       - name: Run tests
