@@ -1,4 +1,4 @@
-![Character Cross](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/github-actions-character-cross.yml/badge.svg)
+![Character Cross](https://github.com/rodrigoborgesdeoliveira/Code-Golf/actions/workflows/github-actions-character-cross.yml/badge.svg)
 
 https://codegolf.stackexchange.com/questions/40561/character-cross
 
