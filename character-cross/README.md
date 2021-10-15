@@ -1,3 +1,5 @@
+![Character Cross](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/github-actions-character-cross.yml/badge.svg)
+
 https://codegolf.stackexchange.com/questions/40561/character-cross
 
 Print the following pattern for any given word that contains odd number of letters:
